@@ -1,2 +1,3 @@
-r=int(input())
-print(round(3.14*r*r,2))
+a=int(input())
+x=3.14*a*a
+print(round(x,2))
