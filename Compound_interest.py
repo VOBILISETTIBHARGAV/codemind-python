@@ -1,4 +1,4 @@
-a,b,c=map(float,input().split())
-x=1+(b/100)
-y=x**c
-print(format(a*y,".2f"))
+x,y,z=map(float,input().split())
+a=1+(y/100)
+n=a**z
+print(format(x*n,".2f"))
