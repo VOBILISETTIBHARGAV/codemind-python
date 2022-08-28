@@ -1,9 +1,9 @@
-b=int(input())
+a=int(input())
 l=list(map(str,input().split()))
-ml=0
+c=0
 for i in l:
-    if len(i)>ml:
-        ml=len(i)
+    if len(i)>c:
+        c=len(i)
 for i in l:
-    if len(i)==ml:
-        print(i,end=" ")
+    if len(i)==c:
+        print(i,end=' ')
