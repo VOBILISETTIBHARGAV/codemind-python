@@ -1,4 +1,4 @@
-n=int(input())
+x=int(input())
 l1=list(map(int,input().split()))
 l2=set(l1)
 l3=list(l2)
