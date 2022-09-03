@@ -6,11 +6,11 @@ d=set(m)
 e=list(c)
 f=list(d)
 k=[]
-n=[]
+o=[]
 for i in range(len(e)):
     if e[i] not in f:
         k.append(e[i])
 for i in range(len(f)):
     if f[i] not in e:
-        n.append(f[i])
-print(len(k)+len(n))
+        o.append(f[i])
+print(len(k)+len(o))
