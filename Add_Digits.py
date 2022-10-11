@@ -1,14 +1,15 @@
-def su(n):
-    count=0
-    while n>0:
-        temp=n%10
-        count=count+temp
-        n=n//10
-    return count
-a=int(input())
-while a>0:
-    if su(a)%10==su(a):
-        print(su(a))
-        break
-    else:
-        a=su(a)
+n=int(input())
+s=0
+while n>0 :
+    r=n%10
+    s=s+r
+    n=n//10
+    if(n==0 and s<=9) :
+        v=1
+        break;
+    elif(n==0 and s>9) :
+        n=s
+        s=0
+if(v==1) :
+    print(s)
+        
