@@ -1,10 +1,10 @@
-a=input()
-a=a.split()
-count=0
-su=0
-for i in range(len(a)):
-    count=0
-    su=0
-    count+=ord(max(a[i]))
-    su+=ord(min(a[i]))
-    print(count-su,end=' ')
+x=input()
+x=x.split()
+c=0
+s=0
+for i in range(len(x)):
+    c=0
+    s=0
+    c+=ord(max(x[i]))
+    s+=ord(min(x[i]))
+    print(c-s,end=' ')
