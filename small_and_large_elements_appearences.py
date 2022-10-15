@@ -1,6 +1,6 @@
 a=input()
-count=0
-su=0
+c=0
+sum=0
 mi=122
 for i in range(len(a)):
     if ord(a[i])!=32 and ord(a[i])<mi:
@@ -9,8 +9,8 @@ x=chr(mi)
 y=max(a)
 for i in range(len(a)):
     if x==a[i]:
-        count+=1
+        c+=1
 for i in range(len(a)):
     if y==a[i]:
-        su+=1
-print(x,count,y,su)
+        sum+=1
+print(x,c,y,sum)
