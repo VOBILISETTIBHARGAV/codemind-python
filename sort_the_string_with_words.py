@@ -1,3 +1,3 @@
-b=input()
-b=b.split()
-print(*sorted(b))
+x=input()
+x=x.split()
+print(*sorted(x))
