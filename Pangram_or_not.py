@@ -1,6 +1,6 @@
-z=input()
-z=z.lower()
-x=set(z)
+a=input()
+a=a.lower()
+x=set(a)
 y=list(x)
 c=0
 for i in range(len(y)):
