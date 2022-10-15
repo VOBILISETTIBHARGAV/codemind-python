@@ -5,4 +5,3 @@ if y.lower() in a[len(a)-1] and y.upper() in a[len(a)-1]:
     print(y.lower())
 else:
     print(y)
-    
