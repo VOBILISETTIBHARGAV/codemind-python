@@ -1,0 +1,11 @@
+a=int(input()) 
+for i in range(a): 
+    m=input()
+    c=0
+    for i in range(len(m)-1):
+        if ord(m[i])==ord(m[i+1])-1 or ord(m[i])==ord(m[i+1])+1:
+            c+=1
+    if c==len(m)-1:
+        print('YES')
+    else:
+        print('NO')
