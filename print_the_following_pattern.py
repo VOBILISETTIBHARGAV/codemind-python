@@ -1,10 +1,6 @@
 x=int(input())
-c=1
-for i in range(1,x+1):
-    for j in range(1,x+1):
-        if(j==x or j==1 or j==c):
-            print("*",end=" ")
-        else:
-            print(" ",end=" ")
+for i in range(x,0,-1):
+    y=chr(64+i)
+    for j in range(1,i+1):
+        print(y,end=" ")
     print()
-    c+=1
